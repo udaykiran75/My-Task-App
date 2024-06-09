@@ -1,0 +1,106 @@
+.app-bgcontainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.create-taskcontainer {
+  background-color: #1a171d;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.main-heading {
+  color: #f3aa4e;
+  font-family: Roboto;
+  font-size: 35px;
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  width: 350px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 17px;
+  padding-bottom: 4px;
+}
+.inputElement {
+  padding: 9px;
+  font-size: 17px;
+  outline: none;
+  font-family: Roboto;
+}
+.add-button {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  font-family: Roboto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 38px;
+  border-radius: 4px;
+  font-size: 17px;
+}
+.task-view-container {
+  background-color: #131213;
+  width: 60%;
+  padding: 15px;
+}
+.task-view-heading {
+  font-family: Roboto;
+  font-size: 27px;
+  color: #ffffff;
+  line-height: 0.4;
+}
+.tags-list {
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  list-style-type: none;
+}
+.noTask-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 70px;
+  text-align: center;
+}
+.userTask-list {
+  padding: 0px;
+  list-style-type: none;
+}
+.userTask-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a171d;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.userTask-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.userTag-text {
+  background-color: #f3aa4e;
+  font-family: Roboto;
+  font-size: 14px;
+  border-radius: 18px;
+  color: #ffffff;
+  padding: 7px;
+}

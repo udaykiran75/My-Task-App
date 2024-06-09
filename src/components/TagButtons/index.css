@@ -1,0 +1,26 @@
+.outline-button {
+  background-color: transparent;
+  font-family: Roboto;
+  font-size: 14px;
+  border: 1px solid #f3aa4e;
+  border-radius: 18px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-right: 20px;
+  padding: 7px;
+  min-width: 70px;
+}
+.filled-button {
+  background-color: #f3aa4e;
+  font-family: Roboto;
+  font-size: 14px;
+  border: none;
+  border-radius: 18px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-right: 20px;
+  padding: 7px;
+  min-width: 70px;
+}
